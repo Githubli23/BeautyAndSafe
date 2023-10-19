@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    text-align: center;
+    padding-bottom: 4vh;
+    background-color: rgb(255, 212, 219);
+}
+
+.navegacion {
+    background-color: rgb(247, 149, 250);
+    height: 9.5vh;
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+    width: 100%;
+}
+
+.navegacion h3 {
+    padding: 2.8vh;
+    color: black;  
+}
+
+.navegacion h3:hover {
+    background-color: pink;
+    
+}
+
+.logo {
+    background-color: black;
+    border: 1px solid rgb(247, 149, 250);
+    position: absolute;
+    left: 10vh;
+    top: 3vh;
+    width: 20vh;
+    height: 20vh;
+}
+
+.logo img {
+    width: 20vh;
+    height: 20vh;
+
+}
+
+.content {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 37vh;
+    width: 30vh;
+    margin-left: 96vh;
+    margin-top: 5vh;
+    border-bottom: 2px solid black;
+}
+
+.producto1{
+    background-color: black;
+    width: 25vh;
+    height: 25vh;
+    margin-top: 2vh;
+    
+}
+
+.products {
+    background-color: rgb(240, 158, 236);
+    height: auto;
+    padding-bottom: 5vh;
+    display: flex;
+	flex-wrap: wrap;
+	margin: 3vh;
+    width: 215vh;
+    border-radius: 2vh;
+}
+
+.bloque {
+    background-color: white;
+    height: 37vh;
+    width: 30vh;
+    margin-left: 3vh;
+    margin-top: 5vh;
+    position: relative;
+    border-radius: 1vh;
+
+}
+
+.producto{
+    background-color: black;
+    margin-left: 2.5vh;
+    width: 25vh;
+    height: 25vh;
+    margin-top: 2vh;
+    
+}
+
+.producto img {
+    width: 25vh;
+    height: 25vh;
+
+}
+
+.bloque p {
+    margin-top: 6.4vh;
+    margin-left: -8vh;
+}
+
+.bloque h3 {
+    position: absolute;
+    color: black;
+    z-index: 1;
+    top: 32vh;
+    left: 26vh;
+    padding-right: 5px;
+    padding-left: 5px;
+    
+}
+
+.bloque h3:hover {
+    background-color: rgb(201, 201, 201);
+}
+
+.producto1 img {
+    width: 25vh;
+    height: 25vh;
+}
+
+.producto1 {
+    position: absolute;
+}
+
+.content p {
+    position: absolute;
+    margin-top: 33vh;
+    margin-left: -8vh;
+}
+
+.content h3 {
+    margin-top:33vh ;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 25vh;
+    
+}
+
+.content h3:hover {
+    background-color: rgb(201, 201, 201);
+}
+
+.content a {
+    text-decoration: none;
+    color: black;
+}

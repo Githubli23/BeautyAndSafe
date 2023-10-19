@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    text-align: center;
+    padding-bottom: 4vh;
+    background-color: rgb(255, 212, 219);
+}
+
+h2 {
+    margin-top: 3vh;
+    padding-bottom: 2vh;
+    border-bottom: 2px solid black ;
+}
+
+.logo {
+    background-color: black;
+    background-image: url(img/logo.jpg);
+    background-size: cover;
+    margin: 3vh;
+    width: 20vh;
+    height: 20vh;
+}
+
+.contacto {
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+	flex-direction: column;
+    height: 100vh;
+    width: auto;
+}
+
+.contacto img {
+    margin-bottom: 4vh;
+    z-index: 1;
+}
+
+.contacto img:hover {
+    rotate: 360deg;
+    cursor: pointer;
+}
+
+.gmail {
+    position: absolute;
+    margin-top: -95vh;
+    margin-left: 105vh;
+    background-color: rgb(231, 34, 34);
+    height: 5vh;
+    width: 40vh;
+}
+
+
+
+
+.gmail p {
+    color: white;
+    margin-top: 3px;
+}
+
+.insta {
+    position: absolute;
+    margin-top: -75vh;
+    margin-left: 105vh;
+    
+    background-color: rgb(231, 34, 198);
+    height: 5vh;
+    width: 30vh;
+}
+
+.insta p {
+    color: white;
+    margin-top: 3px;
+}
+
+
+
+.wats {
+    position: absolute;
+    margin-top: -55vh;
+    margin-left: 105vh;
+    
+    background-color: rgb(34, 231, 83);
+    height: 5vh;
+    width: 30vh;
+}
+
+.wats p {
+    color: white;
+    margin-top: 3px;
+}
+
+h1 {
+    position: absolute;
+    margin-left: 5vh;
+    margin-top: -1vh;
+}
+
+h1:hover {
+    background-color:pink ;
+
+}

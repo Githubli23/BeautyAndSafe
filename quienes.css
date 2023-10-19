@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    text-align: center;
+    padding-bottom: 4vh;
+    background-color: rgb(255, 212, 219);
+}
+
+h2 {
+    margin-top: 4vh;
+    padding-bottom: 4vh;
+    border-bottom: 2px solid black;
+}
+
+.imagen1 {
+    margin: 5vh;
+    background-image: url(img/vale.jpg);
+    background-size: cover;
+}
+
+.imagen1 p {
+    margin-left: 46vh;
+    position: absolute;
+}
+
+.imagen2 {
+    margin: 5vh;
+    background-image: url(img/lesly.jpg);
+    background-size: cover;
+}
+
+.imagen2 p {
+    margin-left: 46vh;
+    position: absolute;
+}
+
+
+.imagen3 {
+    margin: 5vh;
+    background-image: url(img/yo.jpg);
+    background-size: cover;
+}
+
+.imagen3 p {
+    margin-left: 46vh;
+    position: absolute;
+}
+
+
+h1 {
+    position: absolute;
+    margin-left: 5vh;
+    margin-top: -1vh;
+}
+
+h1:hover {
+    background-color:pink ;
+
+}
